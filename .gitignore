@@ -1,0 +1,28 @@
+
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# macOS files
+.DS_Store
+
+# Temporary files
+*.log
+*.tmp
+
+# Editor settings
+.vscode/
+
+# Local secrets
+.env
+.env.*
+
+# Duplicate experiment results in the project root
+/repeated_results.csv
+/v13_pilot_results.csv
+/v14_full_results.csv
+/v14_pilot_results.csv
